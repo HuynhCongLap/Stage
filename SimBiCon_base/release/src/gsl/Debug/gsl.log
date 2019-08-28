@@ -1,0 +1,30 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  vector.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\gsl_errno.h(23): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  swap.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\vector\swap.c(1): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  prop.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\vector\prop.c(1): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  oper.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\vector\oper.c(1): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  minmax.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\vector\minmax.c(1): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  copy.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\vector\gsl_vector_double.h(23): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  matrix.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\gsl_errno.h(23): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  getset.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\gsl_errno.h(23): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  error.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\error.c(21): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  init.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\block\init.c(1): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  file.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\block\file.c(1): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  block.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\gsl_errno.h(23): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  cblas.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\blas\cblas.h(3): fatal error C1083: Cannot open include file: 'stdio.h': No such file or directory
+  blas.c
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\gsl\gsl_math.h(22): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Generating Code...

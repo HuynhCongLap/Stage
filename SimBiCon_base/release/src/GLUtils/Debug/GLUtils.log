@@ -1,0 +1,12 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  OBJReader.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  GLUtils.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  GLTexture.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winnt.h(31): fatal error C1083: Cannot open include file: 'ctype.h': No such file or directory
+  GLMesh.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  GLCamera.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Generating Code...

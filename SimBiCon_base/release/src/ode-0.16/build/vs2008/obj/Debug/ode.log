@@ -1,0 +1,248 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  threadlocalstorage.cpp
+  malloc.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\ou\include\ou\malloc.h(34): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  customization.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\ou\include\ou\customization.h(35): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  atomic.cpp
+c:\program files (x86)\windows kits\8.1\include\um\winnt.h(31): fatal error C1083: Cannot open include file: 'ctype.h': No such file or directory
+  OPC_VolumeCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_TreeCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_TreeBuilders.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_SphereCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_RayCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_PlanesCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_Picking.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_OptimizedTree.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_OBBCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_Model.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_MeshInterface.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_LSSCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_HybridModel.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_Common.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_Collider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_BaseModel.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Generating Code...
+  Compiling...
+  OPC_AABBTree.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  OPC_AABBCollider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Opcode.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceUtils.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceTriangle.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceSegment.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceRevisitedRadix.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceRay.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceRandom.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IcePoint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IcePlane.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceOBB.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceMatrix4x4.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceMatrix3x3.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceIndexedTriangle.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceHPoint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceContainer.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  IceAABB.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\opcode\opcode.h(25): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  util.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  timer.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Generating Code...
+  Compiling...
+  threading_pool_win.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  threading_pool_posix.cpp
+  threading_impl.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  threading_base.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  step.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  sphere.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  simple_cooperative.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  rotation.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  resource_control.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  ray.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  quickstep.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  plane.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  odetls.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  odeou.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  odemath.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  odeinit.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  ode.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  obstack.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  objects.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  misc.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Generating Code...
+  Compiling...
+  memory.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  matrix.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  mat.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  mass.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  lcp.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  universal.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  transmission.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  slider.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  pu.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  pr.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  plane2d.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  piston.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  null.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  lmotor.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  joint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  hinge2.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  hinge.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fixed.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  dhinge.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  dball.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Generating Code...
+  Compiling...
+  contact.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  ball.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  amotor.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  heightfield.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fastvecscale.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fastltsolve.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fastlsolve.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fastldltsolve.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fastldltfactor.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  fastdot.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  export-dif.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  error.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  default_threading.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  cylinder.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  convex.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_util.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_trimesh_old.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_trimesh.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_sphere.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_ray.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Generating Code...
+  Compiling...
+  collision_trimesh_plane.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_opcode.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_internal.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_disabled.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_ccylinder.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_trimesh_box.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_transform.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_space.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\crtdefs.h(10): fatal error C1083: Cannot open include file: 'corecrt.h': No such file or directory
+  collision_sapspace.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_quadtreespace.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_kernel.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_cylinder_trimesh.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_cylinder_sphere.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_cylinder_plane.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_cylinder_box.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  collision_convex_trimesh.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  capsule.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  box.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  array.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\ode-0.16\include\ode\odeconfig.h(27): fatal error C1083: Cannot open include file: 'stddef.h': No such file or directory
+  Generating Code...

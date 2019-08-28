@@ -1,0 +1,22 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  Vector3d.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Vector.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\vector.h(26): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  TransformationMatrix.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\matrix.h(26): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  ThreeTuple.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Sphere.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Quaternion.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\matrix.h(26): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  Point3d.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Plane.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Matrix.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\matrix.h(26): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  Capsule.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Generating Code...

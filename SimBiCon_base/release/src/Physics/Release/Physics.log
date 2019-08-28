@@ -1,0 +1,54 @@
+﻿  AbstractRBEngine.cpp
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  ArticulatedFigure.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  ArticulatedRigidBody.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  BallInSocketJoint.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  BoxCDP.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\MathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  CapsuleCDP.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\MathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  CollisionDetectionPrimitive.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\MathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  HingeJoint.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  Joint.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  ODEWorld.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  PlaneCDP.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  PreCollisionQuery.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  RBProperties.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\MathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  RBState.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  RBUtils.cpp
+  RigidBody.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  SphereCDP.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\MathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  UniversalJoint.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  Generating Code...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+  Physics.vcxproj -> C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\Physics\../binaries/Release\Physics.lib

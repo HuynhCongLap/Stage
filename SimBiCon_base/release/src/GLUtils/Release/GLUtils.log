@@ -1,0 +1,15 @@
+﻿  GLCamera.cpp
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  GLMesh.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\mathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  GLTexture.cpp
+  GLUtils.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\MathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  OBJReader.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\mathLib\mathLib.h(38,1): warning C4005:  'INFINITY': macro redefinition
+  Generating Code...
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_math.h(90): message :  see previous definition of 'INFINITY'
+  GLUtils.vcxproj -> C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\GLUtils\..\binaries\Release\GLUtils.lib

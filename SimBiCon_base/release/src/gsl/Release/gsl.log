@@ -1,0 +1,27 @@
+﻿  blas.c
+  cblas.c
+  block.c
+  file.c
+  init.c
+  error.c
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\gsl\error.c(40,20): warning C4474:  'printf' : too many arguments passed for format string
+  getset.c
+  matrix.c
+  copy.c
+  minmax.c
+  oper.c
+  prop.c
+  swap.c
+  vector.c
+  Generating Code...
+C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\gsl\error.c(40,20): message :  placeholders and their parameters expect 0 variadic arguments, but 3 were provided
+  copy.c
+  file.c
+  init.c
+  minmax.c
+  oper.c
+  prop.c
+  swap.c
+  file.c
+  init.c
+  gsl.vcxproj -> C:\Users\p1419778\Downloads\Github code\Stage\SimBiCon_base\release\src\gsl\..\binaries\Release\gsl.lib

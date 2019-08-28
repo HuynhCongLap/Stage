@@ -1,0 +1,38 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  UniversalJoint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  SphereCDP.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  RigidBody.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  RBUtils.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\physics\rbutils.cpp(25): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  RBState.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  RBProperties.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\matrix.h(26): fatal error C1083: Cannot open include file: 'stdlib.h': No such file or directory
+  PreCollisionQuery.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  PlaneCDP.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  ODEWorld.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  Joint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  HingeJoint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  CollisionDetectionPrimitive.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  CapsuleCDP.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  BoxCDP.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  BallInSocketJoint.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  ArticulatedRigidBody.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  ArticulatedFigure.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  AbstractRBEngine.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  Generating Code...

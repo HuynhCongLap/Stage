@@ -1,0 +1,22 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  SimGlobals.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  SimBiController.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  SimBiConState.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\crtdefs.h(10): fatal error C1083: Cannot open include file: 'corecrt.h': No such file or directory
+  SimBiConFramework.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  PoseController.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  ConUtils.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\core\conutils.cpp(25): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  Controller.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  Character.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  BaseControlFramework.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\utils\utils.h(26): fatal error C1083: Cannot open include file: 'string.h': No such file or directory
+  BalanceFeedback.cpp
+c:\users\33768\desktop\github\stage\newversion\simbicon_base\release\src\mathlib\mathlib.h(28): fatal error C1083: Cannot open include file: 'math.h': No such file or directory
+  Generating Code...
