@@ -1,0 +1,10 @@
+prefix=C:/Program Files (x86)/Simbody
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: simbody
+Description: Simbody Libraries
+Version: 3.6
+Requires:
+Libs: -L${libdir} -lSimTKsimbody -lSimTKmath -lSimTKcommon -lliblapack -llibblas
+CFlags: -I${includedir}

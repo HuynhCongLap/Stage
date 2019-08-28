@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BC182BFA-BB8E-33CE-9D35-257FDE21AFD5}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -SC:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1 -BC:/Users/p1419778/Downloads/SimbodyBuild --check-stamp-file C:/Users/p1419778/Downloads/SimbodyBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTest.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Dart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindDart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\SimbodyConfig.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\cmake_uninstall.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\pkgconfig\simbody.pc.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -SC:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1 -BC:/Users/p1419778/Downloads/SimbodyBuild --check-stamp-file C:/Users/p1419778/Downloads/SimbodyBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTest.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Dart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindDart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\SimbodyConfig.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\cmake_uninstall.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\pkgconfig\simbody.pc.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -SC:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1 -BC:/Users/p1419778/Downloads/SimbodyBuild --check-stamp-file C:/Users/p1419778/Downloads/SimbodyBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTest.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Dart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindDart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\SimbodyConfig.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\cmake_uninstall.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\pkgconfig\simbody.pc.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -SC:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1 -BC:/Users/p1419778/Downloads/SimbodyBuild --check-stamp-file C:/Users/p1419778/Downloads/SimbodyBuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeCXXCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeRCCompiler.cmake;C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\3.14.4\CMakeSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCXXInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeGenericSystem.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeInitializeConfigs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeLanguageInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakePackageConfigHelpers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeRCInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTest.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestTargets.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\CTestUseLaunchers.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Compiler\MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Dart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\DartConfiguration.tcl.in;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindDart.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\FindPackageMessage.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\GNUInstallDirs.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows-MSVC.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\Windows.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\Platform\WindowsPaths.cmake;C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\share\cmake-3.14\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\SimbodyConfig.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\cmake_uninstall.cmake.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\cmake\pkgconfig\simbody.pc.in;C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\ZERO_CHECK.vcxproj">
+      <Project>{79DAD132-1732-3D2F-8C28-32BB3C936AE9}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\BNTTest.vcxproj">
+      <Project>{0C258C8D-EDF0-3509-80A1-9349FF413989}</Project>
+      <Name>BNTTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\BestAvailableTest.vcxproj">
+      <Project>{3D71D496-763B-377E-8760-2C0BCBA5C174}</Project>
+      <Name>BestAvailableTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\adhoc\BigMatrixTest.vcxproj">
+      <Project>{A597C6B6-BE53-3140-A70E-88DDFB043E2D}</Project>
+      <Name>BigMatrixTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\BilateralContactConstraints.vcxproj">
+      <Project>{EE682C57-1833-339D-B6A5-60678B62FC3E}</Project>
+      <Name>BilateralContactConstraints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\BricardMechanism\BricardMechanism.vcxproj">
+      <Project>{E08A376F-EE46-3BF5-B1AD-A4B20A84CC5A}</Project>
+      <Name>BricardMechanism</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\CMAESTest.vcxproj">
+      <Project>{79F6D1B6-A3AA-31ED-9529-FD20B3CF1127}</Project>
+      <Name>CMAESTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\CPodesIntegratorTest.vcxproj">
+      <Project>{95883CD1-4436-3E30-B9AE-13CF3EFA66C6}</Project>
+      <Name>CPodesIntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\CableOverBicubicSurfaces.vcxproj">
+      <Project>{EF2A37EC-2A41-3787-B70F-10D93C8DAA85}</Project>
+      <Name>CableOverBicubicSurfaces</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ChainExample.vcxproj">
+      <Project>{5F5B20A8-0059-371D-8B18-EC91E6F59BDD}</Project>
+      <Name>ChainExample</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\CoarseRNA.vcxproj">
+      <Project>{9F50EF7F-FC17-3416-8D9A-237B024760EC}</Project>
+      <Name>CoarseRNA</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\CompliantBlockImpact.vcxproj">
+      <Project>{733F6092-1668-3C6C-A9E7-BEC06339BF7A}</Project>
+      <Name>CompliantBlockImpact</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ConstrainedNumericalDiffOptimization.vcxproj">
+      <Project>{E4849719-A07D-3477-B6E6-AE882E7EAA26}</Project>
+      <Name>ConstrainedNumericalDiffOptimization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ConstrainedOptimization.vcxproj">
+      <Project>{CFE3E26C-DE1E-31EF-949F-BF45C0CE3AFF}</Project>
+      <Name>ConstrainedOptimization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\ContactBigMeshes.vcxproj">
+      <Project>{65162B98-F93E-382A-9B5C-5C44CEAB8D58}</Project>
+      <Name>ContactBigMeshes</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\ContactBrickTest.vcxproj">
+      <Project>{D3C13B2C-EFAE-3DC5-8DF6-4CE43280B108}</Project>
+      <Name>ContactBrickTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\ContactTest.vcxproj">
+      <Project>{E05BCB10-5459-3ADB-A3BA-DFFBF4E4E058}</Project>
+      <Name>ContactTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\tests\CpsAdamsXCpp.vcxproj">
+      <Project>{46EE99CA-2F8E-3DFB-B6D7-CAA406D54227}</Project>
+      <Name>CpsAdamsXCpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\Differentiator.vcxproj">
+      <Project>{E9E45892-68AE-3829-BD73-E3836EC9FFD3}</Project>
+      <Name>Differentiator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\DifferentiatorTest.vcxproj">
+      <Project>{2D43D9D7-8F4E-3C12-9016-757287A147A0}</Project>
+      <Name>DifferentiatorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\DzhanibekovEffect.vcxproj">
+      <Project>{8427A9ED-806E-3485-AE98-59B5526D6FDD}</Project>
+      <Name>DzhanibekovEffect</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\EigenTest.vcxproj">
+      <Project>{E2E4F629-C814-3960-9D7A-290DF40B55BF}</Project>
+      <Name>EigenTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\ElasticFoundation.vcxproj">
+      <Project>{2BC128B3-1391-3419-A213-498E725B444E}</Project>
+      <Name>ElasticFoundation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleAmysIKProblem.vcxproj">
+      <Project>{9CABA9D8-26B4-3F64-AEC4-EF67826E82B7}</Project>
+      <Name>ExampleAmysIKProblem</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleAssemblerPlayground.vcxproj">
+      <Project>{6E678427-57C2-3112-A9CD-61B9344BEBFC}</Project>
+      <Name>ExampleAssemblerPlayground</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleCablePath.vcxproj">
+      <Project>{595FA6AF-2C9A-33CA-8A8C-DE922A730254}</Project>
+      <Name>ExampleCablePath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleClosedTopologyMechanism.vcxproj">
+      <Project>{B4BD905A-B620-3B80-BC90-AE36FF103175}</Project>
+      <Name>ExampleClosedTopologyMechanism</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleContactPlayground.vcxproj">
+      <Project>{82218298-D473-3899-B4BD-D340AAD82FE6}</Project>
+      <Name>ExampleContactPlayground</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleCustomConstraint.vcxproj">
+      <Project>{D3DD2BA0-07B7-3B4D-A8F7-05F976A5772A}</Project>
+      <Name>ExampleCustomConstraint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleEventHandler.vcxproj">
+      <Project>{84D9A943-B344-3C01-A87B-3B40AB12E29B}</Project>
+      <Name>ExampleEventHandler</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleEventReporter.vcxproj">
+      <Project>{17326D3B-A276-382C-B4E4-1863D0D71877}</Project>
+      <Name>ExampleEventReporter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleGears.vcxproj">
+      <Project>{684A863B-682E-319E-A310-1856B8BBDFB1}</Project>
+      <Name>ExampleGears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleGeodesic.vcxproj">
+      <Project>{DC17839B-6AE6-3B62-9EE2-E58E0B595B61}</Project>
+      <Name>ExampleGeodesic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleIMUTracking.vcxproj">
+      <Project>{EA1FF460-0C1D-3FC9-822E-95117398FB15}</Project>
+      <Name>ExampleIMUTracking</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleKneeJoint.vcxproj">
+      <Project>{6C2B3FDA-4F61-3514-AE74-339F4EB732B9}</Project>
+      <Name>ExampleKneeJoint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleLongPendulum.vcxproj">
+      <Project>{7CF36A48-E1DE-3E4E-AA0F-C6DC6EB2695B}</Project>
+      <Name>ExampleLongPendulum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleMotor-TorqueLimited-Constraint.vcxproj">
+      <Project>{FF9FD1B7-EA16-39D6-8165-5FF3CFB73B0C}</Project>
+      <Name>ExampleMotor-TorqueLimited-Constraint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleMotor-TorqueLimited-Controller.vcxproj">
+      <Project>{CE2B0678-72E0-33A0-AC9D-832B9EB62E4C}</Project>
+      <Name>ExampleMotor-TorqueLimited-Controller</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleMotor-TorqueLimited-Motion.vcxproj">
+      <Project>{F04186A2-FDEB-3F63-9083-B0FBC5BAD9B2}</Project>
+      <Name>ExampleMotor-TorqueLimited-Motion</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleMotorWithSpeedControl.vcxproj">
+      <Project>{4C3BB894-659F-323A-A8DF-C784FA536286}</Project>
+      <Name>ExampleMotorWithSpeedControl</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExamplePendulum.vcxproj">
+      <Project>{86F0CCDD-CA5F-3F40-BD68-4F55CBD4405F}</Project>
+      <Name>ExamplePendulum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleSampleAndHold.vcxproj">
+      <Project>{4CBC222B-80BE-36D0-9AC9-E031E471C86D}</Project>
+      <Name>ExampleSampleAndHold</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleScissorLift.vcxproj">
+      <Project>{B2CF4D0F-E2EC-320A-8291-6C50915EA86A}</Project>
+      <Name>ExampleScissorLift</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleSimplePlanarMechanism.vcxproj">
+      <Project>{54534A88-1F0A-3F5F-9C07-5334A8F6D69E}</Project>
+      <Name>ExampleSimplePlanarMechanism</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleTwoBoxCollide.vcxproj">
+      <Project>{4DE3CA13-4D1E-3F95-AACD-7C932FCA780F}</Project>
+      <Name>ExampleTwoBoxCollide</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ExampleWrapping.vcxproj">
+      <Project>{8E8FFE60-D5A4-319A-B7BB-9A97D5781B4B}</Project>
+      <Name>ExampleWrapping</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\ExplicitEulerIntegratorTest.vcxproj">
+      <Project>{FD5B6CF9-929A-397B-93EE-44CB8B880005}</Project>
+      <Name>ExplicitEulerIntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\FactorLUTest.vcxproj">
+      <Project>{1D4C8754-4E26-33E5-A733-33A093D6F3EC}</Project>
+      <Name>FactorLUTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\FactorQTZTest.vcxproj">
+      <Project>{08D4F0AF-0E9F-3E39-8AEB-EF8BE076ADBF}</Project>
+      <Name>FactorQTZTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\FactorSVDTest.vcxproj">
+      <Project>{38201814-F730-3124-8284-26684C285476}</Project>
+      <Name>FactorSVDTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\FreeWater.vcxproj">
+      <Project>{F52BE148-95C7-3578-943A-1D642AF453B1}</Project>
+      <Name>FreeWater</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\Gazebo2Simbody\Gazebo2Simbody.vcxproj">
+      <Project>{8DE374FC-02E1-357A-8D27-A888D1535B26}</Project>
+      <Name>Gazebo2Simbody</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\GazeboBasicControllerResponse.vcxproj">
+      <Project>{2F031CF3-7BE4-3F8A-A39B-AA6661984976}</Project>
+      <Name>GazeboBasicControllerResponse</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\GazeboInelasticCollision.vcxproj">
+      <Project>{43E7FA84-B553-300B-9D23-DD2C1D02E724}</Project>
+      <Name>GazeboInelasticCollision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\GazeboReactionForce.vcxproj">
+      <Project>{595D1791-B947-35B9-A176-514B9285A72A}</Project>
+      <Name>GazeboReactionForce</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\GazeboReactionForceWithAppliedForceCompliant.vcxproj">
+      <Project>{BA598A32-9779-3F9E-B70F-C1DB51E44B08}</Project>
+      <Name>GazeboReactionForceWithAppliedForceCompliant</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\GazeboReactionForceWithAppliedForceRigid.vcxproj">
+      <Project>{33277412-10C6-398F-A84E-ED8460551FD9}</Project>
+      <Name>GazeboReactionForceWithAppliedForceRigid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\GeometryPlayground.vcxproj">
+      <Project>{3D47D80E-B8DC-3B35-83C0-2282B41A3BBB}</Project>
+      <Name>GeometryPlayground</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\IntegratorTest.vcxproj">
+      <Project>{6DA54AC3-77A8-3AB4-854B-7D40C857F8C7}</Project>
+      <Name>IntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\IpoptDiffTest.vcxproj">
+      <Project>{700D26DE-69F3-371B-8A9D-B465C704BB79}</Project>
+      <Name>IpoptDiffTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\IpoptTest.vcxproj">
+      <Project>{83F39EB6-4364-3922-962D-9E5CFC43121B}</Project>
+      <Name>IpoptTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\JaredsDude.vcxproj">
+      <Project>{C98A3707-607F-3506-921C-BFFC859D3580}</Project>
+      <Name>JaredsDude</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\JunkMain1.vcxproj">
+      <Project>{C983AED5-2C53-3CA7-B231-38DED21BF8B7}</Project>
+      <Name>JunkMain1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\JunkMain2.vcxproj">
+      <Project>{A7E24F65-65FB-3CEC-8DF4-0EC8546887FE}</Project>
+      <Name>JunkMain2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\LBFGSBDiffTest.vcxproj">
+      <Project>{66B08DE1-114B-37BD-9B0B-6E9650D6D60D}</Project>
+      <Name>LBFGSBDiffTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\LBFGSBTest.vcxproj">
+      <Project>{5983CB68-7810-30BA-9AA1-E6CA60272EA9}</Project>
+      <Name>LBFGSBTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\LBFGSDiffTest.vcxproj">
+      <Project>{E8D5A302-A70E-389B-9A2D-8BBB7D05647A}</Project>
+      <Name>LBFGSDiffTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\LBFGSTest.vcxproj">
+      <Project>{D8E3D021-6EA8-3DAB-9BC2-4877B54062DF}</Project>
+      <Name>LBFGSTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\LockUnlockConstraint.vcxproj">
+      <Project>{AC8D504C-4B4B-3A90-A9D2-C11C82211642}</Project>
+      <Name>LockUnlockConstraint</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\LookAtPolygonalMesh.vcxproj">
+      <Project>{D9DF1DD3-7321-3F61-BB11-898EF67415FF}</Project>
+      <Name>LookAtPolygonalMesh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\MatVecTest.vcxproj">
+      <Project>{C0FEE8A5-B0A4-3687-B519-D8B7BB40AA2E}</Project>
+      <Name>MatVecTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\MiscConstraints.vcxproj">
+      <Project>{1ECB2A72-2973-3D5E-9FEF-5293CC6075E9}</Project>
+      <Name>MiscConstraints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\MovingMusclePointMomentArm.vcxproj">
+      <Project>{F054D452-CC71-33A4-96D9-8544B832BCEF}</Project>
+      <Name>MovingMusclePointMomentArm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\OpenSimPartyDemoCable.vcxproj">
+      <Project>{0D57CAA1-217F-3903-9897-2610943D9622}</Project>
+      <Name>OpenSimPartyDemoCable</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\OrientationTest.vcxproj">
+      <Project>{1867EAC4-EBFA-3C6C-A966-57BCD84BA7FA}</Project>
+      <Name>OrientationTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\ParallelIpoptTest.vcxproj">
+      <Project>{85B1B68D-EDBB-3F5B-AEEE-8B4CAF0F4E66}</Project>
+      <Name>ParallelIpoptTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\ParameterConstrainedOptimization.vcxproj">
+      <Project>{2C7BBB76-0E76-32BC-A9F3-6D5B9E124DDE}</Project>
+      <Name>ParameterConstrainedOptimization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\PassThrough.vcxproj">
+      <Project>{56786DCB-234F-39BD-8B22-A41BAEACA697}</Project>
+      <Name>PassThrough</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\tests\PendLrCpp.vcxproj">
+      <Project>{7E9DD7EE-F343-3F44-8B68-719DEDD33073}</Project>
+      <Name>PendLrCpp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\PendulumExample.vcxproj">
+      <Project>{A907FEB8-1B11-301A-BC54-1A7B8650DC72}</Project>
+      <Name>PendulumExample</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\PendulumNoViz.vcxproj">
+      <Project>{D5C2C313-FD17-35E3-B927-2048EE91DA23}</Project>
+      <Name>PendulumNoViz</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\PlatformFiles.vcxproj">
+      <Project>{1CB29F8F-40C2-3C05-8D79-C31CEF5D804A}</Project>
+      <Name>PlatformFiles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\PolynomialTest.vcxproj">
+      <Project>{14791F6A-E6E8-3F1A-9576-F61E20D9565B}</Project>
+      <Name>PolynomialTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\PrescribedMotionPlayground.vcxproj">
+      <Project>{CCCB8B41-36B2-38C4-8268-80A566564B3F}</Project>
+      <Name>PrescribedMotionPlayground</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\RadusDrifter.vcxproj">
+      <Project>{6165FDC0-878E-301E-AE7C-0B1A3ADFC989}</Project>
+      <Name>RadusDrifter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\RandomTest.vcxproj">
+      <Project>{6DBEDD82-2888-33BF-8C33-EED63A59C7E1}</Project>
+      <Name>RandomTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\RattleBack_ReverseEllipsoid.vcxproj">
+      <Project>{898E5A51-5174-3B73-93BC-15DB1DCB6B4C}</Project>
+      <Name>RattleBack_ReverseEllipsoid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\Rattleback.vcxproj">
+      <Project>{300E4D8F-CECD-3604-BE3F-F5306A0ABB78}</Project>
+      <Name>Rattleback</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\RigidContact1.vcxproj">
+      <Project>{16415B50-759A-3605-9F46-A895FC1ED56A}</Project>
+      <Name>RigidContact1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\RotationTest.vcxproj">
+      <Project>{8656811D-992B-3DE1-B404-7A769F5FDEBD}</Project>
+      <Name>RotationTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\RungeKutta2IntegratorTest.vcxproj">
+      <Project>{9E62AD9C-DA31-32A2-A9D8-AAAE1E6ECC49}</Project>
+      <Name>RungeKutta2IntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\RungeKutta3IntegratorTest.vcxproj">
+      <Project>{5F760DB4-7462-367D-AE24-E5FAF695A2A4}</Project>
+      <Name>RungeKutta3IntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\RungeKuttaFeldbergIntegratorTest.vcxproj">
+      <Project>{A60680A7-86D8-348C-96D9-9946BCE688E3}</Project>
+      <Name>RungeKuttaFeldbergIntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\RungeKuttaMersonIntegratorTest.vcxproj">
+      <Project>{E4405333-1AA9-3527-85AB-F448EA2612F4}</Project>
+      <Name>RungeKuttaMersonIntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\SBPendulum1.vcxproj">
+      <Project>{A0175FBA-8730-3DAF-B788-7B26BED1B0E6}</Project>
+      <Name>SBPendulum1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\SFMTTest.vcxproj">
+      <Project>{B8545A3C-832C-3EB1-BE2B-BA47CABF950B}</Project>
+      <Name>SFMTTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\SemiExplicitEuler2IntegratorTest.vcxproj">
+      <Project>{6AD65203-93EB-3E87-B76E-730466FBAE3C}</Project>
+      <Name>SemiExplicitEuler2IntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\SemiExplicitEulerIntegratorTest.vcxproj">
+      <Project>{F4B973E3-7CFF-357C-AA3F-C945BB9C511C}</Project>
+      <Name>SemiExplicitEulerIntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\sharedTarget\SimTKcommon.vcxproj">
+      <Project>{57A7D7C0-0C91-3A20-9348-1A4502E3D36F}</Project>
+      <Name>SimTKcommon</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\sharedTarget\SimTKmath.vcxproj">
+      <Project>{FF0FE57D-8DBC-3E9A-A7E5-C6B77C7FB2D5}</Project>
+      <Name>SimTKmath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\sharedTarget\SimTKsimbody.vcxproj">
+      <Project>{FDD33A19-3337-3EB2-A058-D34E70469451}</Project>
+      <Name>SimTKsimbody</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\SimbodyInstallTest.vcxproj">
+      <Project>{99866DA7-D049-35C3-834F-4D4F5FF1DD30}</Project>
+      <Name>SimbodyInstallTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\SimbodyInstallTestNoViz.vcxproj">
+      <Project>{536F1EA9-605F-3600-B9DD-132800B28A0F}</Project>
+      <Name>SimbodyInstallTestNoViz</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\SimpleDifferentiator.vcxproj">
+      <Project>{4E38374B-C49F-3038-ABA4-49634661CA9E}</Project>
+      <Name>SimpleDifferentiator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\SimpleDifferentiatorTest.vcxproj">
+      <Project>{B0E34153-31E4-3045-8976-29CE5007E88D}</Project>
+      <Name>SimpleDifferentiatorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\SimpleIntegrator.vcxproj">
+      <Project>{F4D9C2B8-D66F-3B82-8DD0-33B623C584E8}</Project>
+      <Name>SimpleIntegrator</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\SpatialAlgebraTest.vcxproj">
+      <Project>{ED32130A-7435-3F34-B089-82142C6D64DA}</Project>
+      <Name>SpatialAlgebraTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\SphericalCoordsMobilizerTest.vcxproj">
+      <Project>{C582B7B8-BDE6-3CA1-A686-E67E3BFBC313}</Project>
+      <Name>SphericalCoordsMobilizerTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\StateTest.vcxproj">
+      <Project>{FC5028F0-3ED4-3F4B-8C73-3A7B313CF9D6}</Project>
+      <Name>StateTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\TaskSpaceControl-Atlas\TaskSpaceControl-Atlas.vcxproj">
+      <Project>{7EC38F39-9D8C-337D-AE18-A7082FCEB6A7}</Project>
+      <Name>TaskSpaceControl-Atlas</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\TaskSpaceControl-UR10\TaskSpaceControl-UR10.vcxproj">
+      <Project>{16B42E7A-5816-3878-A4A6-BC827949B297}</Project>
+      <Name>TaskSpaceControl-UR10</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestAngleConversions.vcxproj">
+      <Project>{6E88353B-7AA9-33DC-B1DD-84E27D899886}</Project>
+      <Name>TestAngleConversions</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestArray.vcxproj">
+      <Project>{8A9083C1-BB9C-3E01-81F8-BC787312355A}</Project>
+      <Name>TestArray</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestAtomic.vcxproj">
+      <Project>{257A36C8-49D2-3229-A061-9A7C00AC9282}</Project>
+      <Name>TestAtomic</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TestBicubicSurface.vcxproj">
+      <Project>{2DB3D9AB-F04F-3BA2-8329-884E50B9BEC2}</Project>
+      <Name>TestBicubicSurface</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestBigMatrix.vcxproj">
+      <Project>{4A68C446-DDAF-3279-AEE1-1FA3D8F5AAF1}</Project>
+      <Name>TestBigMatrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestCloneOnWritePtr.vcxproj">
+      <Project>{E2DBE970-9DC8-3E00-AF8A-8F9EC1186521}</Project>
+      <Name>TestCloneOnWritePtr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestCollisionDetectionAlgorithm.vcxproj">
+      <Project>{BFE36581-C40E-3E10-BA4C-81377F982F2F}</Project>
+      <Name>TestCollisionDetectionAlgorithm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestConstraints.vcxproj">
+      <Project>{2F665F2C-07CE-3629-939E-567DFCDF240C}</Project>
+      <Name>TestConstraints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TestContactGeometry.vcxproj">
+      <Project>{19477AB2-7E73-388B-96A7-A58B4B9D0D69}</Project>
+      <Name>TestContactGeometry</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestCustomConstraints.vcxproj">
+      <Project>{097E40BB-931D-3A54-95AC-368707039A27}</Project>
+      <Name>TestCustomConstraints</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestCustomMobilizedBodies.vcxproj">
+      <Project>{5013DB87-5D76-33FD-A38A-F5EA22C7ECD8}</Project>
+      <Name>TestCustomMobilizedBodies</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestElasticFoundationForce.vcxproj">
+      <Project>{265A3C3D-3A9C-3F56-AE0F-C68195BE24AB}</Project>
+      <Name>TestElasticFoundationForce</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestForces.vcxproj">
+      <Project>{1F29940B-04B4-3EFE-8FE2-04750829DB2D}</Project>
+      <Name>TestForces</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestFunction.vcxproj">
+      <Project>{D5890778-B888-3826-9037-DAE55E9F9B7B}</Project>
+      <Name>TestFunction</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestFunctionBasedMobilizedBodies.vcxproj">
+      <Project>{14532A88-D6BD-3DE5-9C06-33C5D8E0A8B0}</Project>
+      <Name>TestFunctionBasedMobilizedBodies</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TestGeo.vcxproj">
+      <Project>{843B791A-FB36-3B73-A751-330E19C9D294}</Project>
+      <Name>TestGeo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestGravity.vcxproj">
+      <Project>{ED265CBD-F091-3EE2-B98E-9EAA67B92EE0}</Project>
+      <Name>TestGravity</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestHuntCrossleyForce.vcxproj">
+      <Project>{BE170EBC-8DDE-36FF-852D-3DCFED3CB651}</Project>
+      <Name>TestHuntCrossleyForce</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestIteratorRange.vcxproj">
+      <Project>{0DFD3145-C015-34B0-AD30-56AED8A01DE2}</Project>
+      <Name>TestIteratorRange</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestLinearBushing.vcxproj">
+      <Project>{C179777E-D098-30FD-8DA2-24C8AFDE9786}</Project>
+      <Name>TestLinearBushing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestLoneParticle.vcxproj">
+      <Project>{D331DFFC-8554-37F0-AC1D-02AF7EF9239F}</Project>
+      <Name>TestLoneParticle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestMassMatrix.vcxproj">
+      <Project>{24D7D4EA-585F-37C4-A0EC-C700DEC80CE3}</Project>
+      <Name>TestMassMatrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestMassProperties.vcxproj">
+      <Project>{019DF27E-1B6D-34DD-B7A6-B524D279D00B}</Project>
+      <Name>TestMassProperties</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestMobilizedBody.vcxproj">
+      <Project>{BCF5ECF3-04D6-3EF9-8A05-062545B38C61}</Project>
+      <Name>TestMobilizedBody</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestMobilizerReactionForces.vcxproj">
+      <Project>{25F816D5-1AC9-3554-A474-2057D14FDF7F}</Project>
+      <Name>TestMobilizerReactionForces</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TestMultibodyGraphMaker.vcxproj">
+      <Project>{946E0D09-CD1D-38E9-80D3-E6DBF2B255DF}</Project>
+      <Name>TestMultibodyGraphMaker</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TestMultibodyPerformance.vcxproj">
+      <Project>{F7AA6620-7858-3664-BF85-EFBEA963DA15}</Project>
+      <Name>TestMultibodyPerformance</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestNiceTypeName.vcxproj">
+      <Project>{64DB11A5-1937-33CA-A609-9842E9194E63}</Project>
+      <Name>TestNiceTypeName</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestNoseHooverThermostat.vcxproj">
+      <Project>{75D5C2AB-4DED-357A-BA1E-7B7AD0DFD60C}</Project>
+      <Name>TestNoseHooverThermostat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestObservedPointFitter.vcxproj">
+      <Project>{A7786D0D-81F3-32D6-81A2-AA784D3C801E}</Project>
+      <Name>TestObservedPointFitter</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestOrientedBoundingBox.vcxproj">
+      <Project>{C52CB74C-BB49-371E-81CB-D492CC7434E8}</Project>
+      <Name>TestOrientedBoundingBox</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TestPLUS_SingleBrick.vcxproj">
+      <Project>{2B5774D1-FD4C-3018-9BC3-1C845308C971}</Project>
+      <Name>TestPLUS_SingleBrick</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestParallel2DExecutor.vcxproj">
+      <Project>{C060D264-300B-331B-A9CC-6D69042EEAA2}</Project>
+      <Name>TestParallel2DExecutor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestParallelExecutor.vcxproj">
+      <Project>{4DAD203B-4114-3357-A57B-BEFEA7CCFE9E}</Project>
+      <Name>TestParallelExecutor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestParallelForces.vcxproj">
+      <Project>{B50AFA5A-EF57-3E74-89AB-4B728DD499A6}</Project>
+      <Name>TestParallelForces</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestParallelWorkQueue.vcxproj">
+      <Project>{EFFD3FD8-FB30-31B6-83E4-41B244799410}</Project>
+      <Name>TestParallelWorkQueue</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestPimpl1.vcxproj">
+      <Project>{AF318DAB-521C-3D22-8E22-B1222A73DCA6}</Project>
+      <Name>TestPimpl1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestPlugin.vcxproj">
+      <Project>{4D4147C7-1D25-3940-9206-750EE9C3EC4B}</Project>
+      <Name>TestPlugin</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestPolygonalMesh.vcxproj">
+      <Project>{A75C2A4B-E2BF-3B48-8517-F7FAFF9E6660}</Project>
+      <Name>TestPolygonalMesh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestPrivateImplementation.vcxproj">
+      <Project>{66164632-392F-3063-8733-38D5B47C31E6}</Project>
+      <Name>TestPrivateImplementation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\TestReverseMobilizers.vcxproj">
+      <Project>{12C5E072-084A-34BE-B894-44B5D9832E4A}</Project>
+      <Name>TestReverseMobilizers</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TestRiboseMobilizer.vcxproj">
+      <Project>{FE63E6AB-30D2-34AD-9B76-3ECB9E75EA6C}</Project>
+      <Name>TestRiboseMobilizer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestScalar.vcxproj">
+      <Project>{19E6E863-1DFE-3EBF-8018-752FA2796560}</Project>
+      <Name>TestScalar</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestSimulation.vcxproj">
+      <Project>{D24D2AE6-6CE3-3216-AA7B-AE040DC93042}</Project>
+      <Name>TestSimulation</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestSmallMatrix.vcxproj">
+      <Project>{269CD29C-FEA4-38C0-BB91-AB31C28A9284}</Project>
+      <Name>TestSmallMatrix</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TestSpline.vcxproj">
+      <Project>{F4737428-33FC-3A2C-BDE3-609E39D7226D}</Project>
+      <Name>TestSpline</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TestThermostat.vcxproj">
+      <Project>{64DDE705-2E52-3D93-BA22-C5184B106741}</Project>
+      <Name>TestThermostat</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TestTriangleMesh.vcxproj">
+      <Project>{0F3A89EA-5002-34BF-8CBB-BFB83B864A49}</Project>
+      <Name>TestTriangleMesh</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestVectorMath.vcxproj">
+      <Project>{3D599CC0-391B-3F4D-AC76-3B4B8ABADFC8}</Project>
+      <Name>TestVectorMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKcommon\tests\TestXml.vcxproj">
+      <Project>{5DA3B639-AFB5-3FB3-B8FD-BC0A261A8FEE}</Project>
+      <Name>TestXml</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\TheoJansenStrandbeest.vcxproj">
+      <Project>{31D714DB-6F4A-3D9D-87EB-B517BF7F58C1}</Project>
+      <Name>TheoJansenStrandbeest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\TimeStepperTest.vcxproj">
+      <Project>{892F4927-64FA-3429-851A-134C49321A40}</Project>
+      <Name>TimeStepperTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TimsBox.vcxproj">
+      <Project>{70632754-C66C-34B1-B65F-1101F0C4FC9F}</Project>
+      <Name>TimsBox</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TimsBoxBristle.vcxproj">
+      <Project>{E0BD2C9A-BB81-31C5-9B26-415414A6F5E3}</Project>
+      <Name>TimsBoxBristle</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TimsBoxHybrid.vcxproj">
+      <Project>{F38531E7-79B8-34CA-B1F4-4FC060FDCE2A}</Project>
+      <Name>TimsBoxHybrid</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TimsBoxPGS.vcxproj">
+      <Project>{A6463296-2A96-3131-9A94-0357291D78C0}</Project>
+      <Name>TimsBoxPGS</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\TwoPendulums.vcxproj">
+      <Project>{63018CCF-8F17-3559-A596-7A39AF7693E6}</Project>
+      <Name>TwoPendulums</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\UnconstrainedNumericalDiffOptimization.vcxproj">
+      <Project>{1EF929A5-3774-32D4-B874-C9159C56E7A9}</Project>
+      <Name>UnconstrainedNumericalDiffOptimization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\UnconstrainedOptimization.vcxproj">
+      <Project>{F39DD357-0BED-355A-83DF-49D49F85215F}</Project>
+      <Name>UnconstrainedOptimization</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\UnilateralPointContact.vcxproj">
+      <Project>{2CA70A53-A7AA-3926-9D5A-9A1CE4C05C68}</Project>
+      <Name>UnilateralPointContact</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\UnilateralPointContactWithFriction.vcxproj">
+      <Project>{EEBBBD9B-EBC8-3BFF-B892-9B6DD038803A}</Project>
+      <Name>UnilateralPointContactWithFriction</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\UserGuide.vcxproj">
+      <Project>{E951B217-5A12-3730-A93F-0FBD1D5C8321}</Project>
+      <Name>UserGuide</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\examples\UserGuideLimits.vcxproj">
+      <Project>{EDB8C7FF-27DC-3CB8-9D65-4D65BC7E479C}</Project>
+      <Name>UserGuideLimits</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\VerletIntegratorTest.vcxproj">
+      <Project>{D6741F59-B3EB-3453-96AB-3A594F0B7B03}</Project>
+      <Name>VerletIntegratorTest</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\tests\adhoc\WristMomentArm.vcxproj">
+      <Project>{B1F1C3FE-D25D-3472-A7FA-578404D698FA}</Project>
+      <Name>WristMomentArm</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsAdvDiff_bnd.vcxproj">
+      <Project>{1FD44CF0-C832-3FF2-AFA5-35F529FBE76B}</Project>
+      <Name>cpsAdvDiff_bnd</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsAdvDiff_bndL.vcxproj">
+      <Project>{3B086C22-EB40-3BEA-A4B4-0A05F3F0992B}</Project>
+      <Name>cpsAdvDiff_bndL</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsAdvDiff_non.vcxproj">
+      <Project>{C2A81D0D-EC14-36FF-8544-2231E154F05C}</Project>
+      <Name>cpsAdvDiff_non</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsNewtCrd_dns.vcxproj">
+      <Project>{6E8C2420-D5A4-3DF0-8419-62932C96F044}</Project>
+      <Name>cpsNewtCrd_dns</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsPend_dns.vcxproj">
+      <Project>{733936FD-BBAA-3E07-8374-BF5D6DE28DF7}</Project>
+      <Name>cpsPend_dns</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsPend_dnsL.vcxproj">
+      <Project>{FBC2B41A-3FB2-3236-88B2-73A34EC20B2B}</Project>
+      <Name>cpsPend_dnsL</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsRoberts_dns.vcxproj">
+      <Project>{0DF5E0B3-19A2-39A0-BC35-FB73DECBA7DB}</Project>
+      <Name>cpsRoberts_dns</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsRoberts_dnsL.vcxproj">
+      <Project>{6F7B2ACF-89A2-331D-91E5-F5EC7ACB8BAB}</Project>
+      <Name>cpsRoberts_dnsL</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsVanDPol_non.vcxproj">
+      <Project>{C0D929BE-CD14-38CB-B9FD-8951B03D792A}</Project>
+      <Name>cpsVanDPol_non</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsadamsx.vcxproj">
+      <Project>{59FB1A1A-4EF3-369B-A4DD-C118A4BC9669}</Project>
+      <Name>cpsadamsx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsbanx.vcxproj">
+      <Project>{03C75D16-6F8F-36E9-B17A-43C60795E9D3}</Project>
+      <Name>cpsbanx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsbanx_lap.vcxproj">
+      <Project>{47D90135-C8E5-35C2-BE68-3AF2AA87EC42}</Project>
+      <Name>cpsbanx_lap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsdenx.vcxproj">
+      <Project>{A54821AC-8BA1-32D5-98F3-A81ACDAA8464}</Project>
+      <Name>cpsdenx</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\cpsdenx_lap.vcxproj">
+      <Project>{9C8F5483-3016-3FB1-B5A6-295A443E4007}</Project>
+      <Name>cpsdenx_lap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\initroot1.vcxproj">
+      <Project>{CC1C265E-F92A-3B90-AC14-ABFF44D5A4C4}</Project>
+      <Name>initroot1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\newton.vcxproj">
+      <Project>{FC21EEDA-81A6-3794-86B1-C54246A7B6FF}</Project>
+      <Name>newton</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\tests\adhoc\nlpqlp.vcxproj">
+      <Project>{3ACBBCD1-22FE-3AA0-8DE9-C494C00C6E7B}</Project>
+      <Name>nlpqlp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\pend.vcxproj">
+      <Project>{29801A84-1BF0-30E5-A4C8-EEE88814E796}</Project>
+      <Name>pend</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\pendEs.vcxproj">
+      <Project>{AB517186-DA57-3BDC-922D-FF9906EEDA6C}</Project>
+      <Name>pendEs</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\pendLr.vcxproj">
+      <Project>{AA2C3916-0749-3E48-B1E1-42E314AAC8A1}</Project>
+      <Name>pendLr</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\SimTKmath\Integrators\src\CPodes\sundials\tests\pend_test.vcxproj">
+      <Project>{B06BFCEA-25F6-3706-A2D2-ABE2F0740497}</Project>
+      <Name>pend_test</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\p1419778\Downloads\SimbodyBuild\Simbody\Visualizer\simbody-visualizer\simbody-visualizer.vcxproj">
+      <Project>{E4A066AA-13BE-3425-8DB0-02614993B74C}</Project>
+      <Name>simbody-visualizer</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

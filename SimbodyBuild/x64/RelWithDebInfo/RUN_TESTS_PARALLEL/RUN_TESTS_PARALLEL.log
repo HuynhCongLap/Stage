@@ -1,0 +1,221 @@
+﻿  Test project C:/Users/p1419778/Downloads/SimbodyBuild
+          Start   1: BNTTest
+          Start   2: MatVecTest
+          Start   3: OrientationTest
+          Start   4: PolynomialTest
+    1/107 Test   #1: BNTTest ........................................   Passed    0.08 sec
+          Start   5: RandomTest
+    2/107 Test   #3: OrientationTest ................................   Passed    0.07 sec
+          Start   6: RotationTest
+    3/107 Test   #2: MatVecTest .....................................   Passed    0.11 sec
+          Start   7: SFMTTest
+    4/107 Test   #4: PolynomialTest .................................   Passed    0.10 sec
+          Start   8: SpatialAlgebraTest
+    5/107 Test   #5: RandomTest .....................................   Passed    0.07 sec
+          Start   9: StateTest
+    6/107 Test   #7: SFMTTest .......................................   Passed    0.06 sec
+          Start  10: TestArray
+    7/107 Test   #9: StateTest ......................................   Passed    0.04 sec
+          Start  11: TestAtomic
+    8/107 Test   #8: SpatialAlgebraTest .............................   Passed    0.08 sec
+          Start  12: TestBigMatrix
+    9/107 Test  #11: TestAtomic .....................................   Passed    0.05 sec
+          Start  13: TestCloneOnWritePtr
+   10/107 Test  #12: TestBigMatrix ..................................   Passed    0.05 sec
+          Start  14: TestFunction
+   11/107 Test  #13: TestCloneOnWritePtr ............................   Passed    0.04 sec
+          Start  15: TestIteratorRange
+   12/107 Test  #14: TestFunction ...................................   Passed    0.04 sec
+          Start  16: TestMassProperties
+   13/107 Test  #15: TestIteratorRange ..............................   Passed    0.04 sec
+          Start  17: TestNiceTypeName
+   14/107 Test  #17: TestNiceTypeName ...............................   Passed    0.03 sec
+          Start  18: TestParallel2DExecutor
+   15/107 Test  #18: TestParallel2DExecutor .........................   Passed    0.12 sec
+          Start  19: TestParallelExecutor
+   16/107 Test  #19: TestParallelExecutor ...........................   Passed    0.03 sec
+          Start  20: TestParallelWorkQueue
+   17/107 Test   #6: RotationTest ...................................   Passed    0.48 sec
+          Start  21: TestPlugin
+   18/107 Test  #20: TestParallelWorkQueue ..........................   Passed    0.04 sec
+          Start  22: TestPolygonalMesh
+   19/107 Test  #21: TestPlugin .....................................   Passed    0.04 sec
+          Start  23: TestPrivateImplementation
+   20/107 Test  #22: TestPolygonalMesh ..............................   Passed    0.04 sec
+          Start  24: TestScalar
+   21/107 Test  #23: TestPrivateImplementation ......................   Passed    0.04 sec
+          Start  25: TestSimulation
+   22/107 Test  #24: TestScalar .....................................   Passed    0.04 sec
+          Start  26: TestSmallMatrix
+   23/107 Test  #26: TestSmallMatrix ................................   Passed    0.03 sec
+          Start  27: TestVectorMath
+   24/107 Test  #25: TestSimulation .................................   Passed    0.08 sec
+          Start  28: TestXml
+   25/107 Test  #27: TestVectorMath .................................   Passed    0.05 sec
+          Start  29: cpsAdvDiff_bnd
+   26/107 Test  #28: TestXml ........................................   Passed    0.05 sec
+          Start  30: cpsAdvDiff_bndL
+   27/107 Test  #29: cpsAdvDiff_bnd .................................   Passed    0.04 sec
+          Start  31: cpsAdvDiff_non
+   28/107 Test  #30: cpsAdvDiff_bndL ................................   Passed    0.04 sec
+          Start  32: cpsNewtCrd_dns
+   29/107 Test  #31: cpsAdvDiff_non .................................   Passed    0.04 sec
+          Start  33: cpsPend_dns
+   30/107 Test  #32: cpsNewtCrd_dns .................................   Passed    0.05 sec
+          Start  34: cpsPend_dnsL
+   31/107 Test  #34: cpsPend_dnsL ...................................   Passed    0.03 sec
+          Start  35: cpsRoberts_dns
+   32/107 Test  #33: cpsPend_dns ....................................   Passed    0.09 sec
+          Start  36: cpsRoberts_dnsL
+   33/107 Test  #35: cpsRoberts_dns .................................   Passed    0.04 sec
+          Start  37: cpsVanDPol_non
+   34/107 Test  #36: cpsRoberts_dnsL ................................   Passed    0.04 sec
+          Start  38: cpsadamsx
+   35/107 Test  #37: cpsVanDPol_non .................................   Passed    0.04 sec
+          Start  39: cpsbanx
+   36/107 Test  #38: cpsadamsx ......................................   Passed    0.04 sec
+          Start  40: cpsbanx_lap
+   37/107 Test  #39: cpsbanx ........................................   Passed    0.04 sec
+          Start  41: cpsdenx
+   38/107 Test  #40: cpsbanx_lap ....................................   Passed    0.04 sec
+          Start  42: cpsdenx_lap
+   39/107 Test  #41: cpsdenx ........................................   Passed    0.04 sec
+          Start  43: initroot1
+   40/107 Test  #42: cpsdenx_lap ....................................   Passed    0.04 sec
+          Start  44: newton
+   41/107 Test  #43: initroot1 ......................................   Passed    0.04 sec
+          Start  45: pend
+   42/107 Test  #44: newton .........................................   Passed    0.05 sec
+          Start  46: pendEs
+   43/107 Test  #45: pend ...........................................   Passed    0.04 sec
+          Start  47: pendLr
+   44/107 Test  #46: pendEs .........................................   Passed    0.04 sec
+          Start  48: pend_test
+   45/107 Test  #47: pendLr .........................................   Passed    0.04 sec
+          Start  49: CpsAdamsXCpp
+   46/107 Test  #16: TestMassProperties .............................   Passed    0.96 sec
+          Start  50: PendLrCpp
+   47/107 Test  #49: CpsAdamsXCpp ...................................   Passed    0.06 sec
+          Start  51: BestAvailableTest
+   48/107 Test  #48: pend_test ......................................   Passed    0.10 sec
+          Start  52: CMAESTest
+   49/107 Test  #51: BestAvailableTest ..............................   Passed    0.04 sec
+          Start  53: CPodesIntegratorTest
+   50/107 Test  #50: PendLrCpp ......................................   Passed    0.34 sec
+          Start  54: DifferentiatorTest
+   51/107 Test  #10: TestArray ......................................   Passed    1.56 sec
+          Start  55: EigenTest
+   52/107 Test  #55: EigenTest ......................................   Passed    0.03 sec
+          Start  56: ExplicitEulerIntegratorTest
+   53/107 Test  #54: DifferentiatorTest .............................   Passed    0.17 sec
+          Start  57: FactorLUTest
+   54/107 Test  #57: FactorLUTest ...................................   Passed    0.03 sec
+          Start  58: FactorQTZTest
+   55/107 Test  #58: FactorQTZTest ..................................   Passed    0.03 sec
+          Start  59: FactorSVDTest
+   56/107 Test  #59: FactorSVDTest ..................................   Passed    0.03 sec
+          Start  60: IntegratorTest
+   57/107 Test  #60: IntegratorTest .................................   Passed    0.04 sec
+          Start  61: IpoptDiffTest
+   58/107 Test  #61: IpoptDiffTest ..................................   Passed    0.03 sec
+          Start  62: IpoptTest
+   59/107 Test  #52: CMAESTest ......................................   Passed    0.69 sec
+          Start  63: LBFGSBDiffTest
+   60/107 Test  #62: IpoptTest ......................................   Passed    0.09 sec
+          Start  64: LBFGSBTest
+   61/107 Test  #64: LBFGSBTest .....................................   Passed    0.02 sec
+          Start  65: LBFGSDiffTest
+   62/107 Test  #63: LBFGSBDiffTest .................................   Passed    0.13 sec
+          Start  66: LBFGSTest
+   63/107 Test  #65: LBFGSDiffTest ..................................   Passed    0.04 sec
+          Start  67: RungeKutta2IntegratorTest
+   64/107 Test  #66: LBFGSTest ......................................   Passed    0.04 sec
+          Start  68: RungeKutta3IntegratorTest
+   65/107 Test  #68: RungeKutta3IntegratorTest ......................   Passed    0.53 sec
+          Start  69: RungeKuttaFeldbergIntegratorTest
+   66/107 Test  #69: RungeKuttaFeldbergIntegratorTest ...............   Passed    0.65 sec
+          Start  70: RungeKuttaMersonIntegratorTest
+   67/107 Test  #67: RungeKutta2IntegratorTest ......................   Passed    1.34 sec
+          Start  71: SemiExplicitEuler2IntegratorTest
+   68/107 Test  #70: RungeKuttaMersonIntegratorTest .................   Passed    0.56 sec
+          Start  72: SemiExplicitEulerIntegratorTest
+   69/107 Test  #53: CPodesIntegratorTest ...........................   Passed    2.75 sec
+          Start  73: SimpleDifferentiatorTest
+   70/107 Test  #73: SimpleDifferentiatorTest .......................   Passed    0.02 sec
+          Start  74: TestBicubicSurface
+   71/107 Test  #74: TestBicubicSurface .............................   Passed    0.03 sec
+          Start  75: TestContactGeometry
+   72/107 Test  #75: TestContactGeometry ............................   Passed    0.03 sec
+          Start  76: TestGeo
+   73/107 Test  #76: TestGeo ........................................   Passed    0.88 sec
+          Start  77: TestMultibodyGraphMaker
+   74/107 Test  #77: TestMultibodyGraphMaker ........................   Passed    0.03 sec
+          Start  78: TestSpline
+   75/107 Test  #78: TestSpline .....................................   Passed    0.05 sec
+          Start  79: TestTriangleMesh
+   76/107 Test  #79: TestTriangleMesh ...............................   Passed    0.09 sec
+          Start  80: TimeStepperTest
+   77/107 Test  #80: TimeStepperTest ................................   Passed    0.04 sec
+          Start  81: VerletIntegratorTest
+   78/107 Test  #81: VerletIntegratorTest ...........................   Passed    0.58 sec
+          Start  82: GazeboBasicControllerResponse
+   79/107 Test  #82: GazeboBasicControllerResponse ..................   Passed    0.37 sec
+          Start  83: GazeboInelasticCollision
+   80/107 Test  #83: GazeboInelasticCollision .......................   Passed    0.37 sec
+          Start  84: GazeboReactionForce
+   81/107 Test  #56: ExplicitEulerIntegratorTest ....................   Passed    4.96 sec
+          Start  85: GazeboReactionForceWithAppliedForceCompliant
+   82/107 Test  #84: GazeboReactionForce ............................   Passed    0.26 sec
+          Start  86: GazeboReactionForceWithAppliedForceRigid
+   83/107 Test  #86: GazeboReactionForceWithAppliedForceRigid .......   Passed    1.31 sec
+          Start  87: TestAngleConversions
+   84/107 Test  #87: TestAngleConversions ...........................   Passed    0.03 sec
+          Start  88: TestCollisionDetectionAlgorithm
+   85/107 Test  #88: TestCollisionDetectionAlgorithm ................   Passed    0.05 sec
+          Start  89: TestConstraints
+   86/107 Test  #89: TestConstraints ................................   Passed    0.41 sec
+          Start  90: TestCustomConstraints
+   87/107 Test  #90: TestCustomConstraints ..........................   Passed    0.98 sec
+          Start  91: TestCustomMobilizedBodies
+   88/107 Test  #91: TestCustomMobilizedBodies ......................   Passed    0.04 sec
+          Start  92: TestElasticFoundationForce
+   89/107 Test  #85: GazeboReactionForceWithAppliedForceCompliant ...   Passed    4.73 sec
+          Start  93: TestForces
+   90/107 Test  #93: TestForces .....................................   Passed    0.23 sec
+          Start  94: TestFunctionBasedMobilizedBodies
+   91/107 Test  #94: TestFunctionBasedMobilizedBodies ...............   Passed    0.13 sec
+          Start  95: TestGravity
+   92/107 Test  #95: TestGravity ....................................   Passed    0.03 sec
+          Start  96: TestHuntCrossleyForce
+   93/107 Test  #96: TestHuntCrossleyForce ..........................   Passed    0.03 sec
+          Start  97: TestLinearBushing
+   94/107 Test  #97: TestLinearBushing ..............................   Passed    0.05 sec
+          Start  98: TestLoneParticle
+   95/107 Test  #98: TestLoneParticle ...............................   Passed    0.03 sec
+          Start  99: TestMassMatrix
+   96/107 Test  #99: TestMassMatrix .................................   Passed    0.03 sec
+          Start 100: TestMobilizedBody
+   97/107 Test #100: TestMobilizedBody ..............................   Passed    0.07 sec
+          Start 101: TestMobilizerReactionForces
+   98/107 Test #101: TestMobilizerReactionForces ....................   Passed    0.03 sec
+          Start 102: TestNoseHooverThermostat
+   99/107 Test  #71: SemiExplicitEuler2IntegratorTest ...............   Passed    8.76 sec
+          Start 103: TestObservedPointFitter
+  100/107 Test #102: TestNoseHooverThermostat .......................   Passed    0.80 sec
+          Start 104: TestOrientedBoundingBox
+  101/107 Test #103: TestObservedPointFitter ........................   Passed    0.68 sec
+          Start 105: TestParallelForces
+  102/107 Test #104: TestOrientedBoundingBox ........................   Passed    0.04 sec
+          Start 106: TestPimpl1
+  103/107 Test #106: TestPimpl1 .....................................   Passed    0.02 sec
+          Start 107: TestReverseMobilizers
+  104/107 Test #107: TestReverseMobilizers ..........................   Passed    0.13 sec
+  105/107 Test  #72: SemiExplicitEulerIntegratorTest ................   Passed    9.49 sec
+  106/107 Test  #92: TestElasticFoundationForce .....................   Passed    7.33 sec
+  107/107 Test #105: TestParallelForces .............................   Passed    5.74 sec
+  
+  100% tests passed, 0 tests failed out of 107
+  
+  Total Test time (real) =  18.77 sec
+  Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p1419778/Downloads/SimbodyBuild/CMakeFiles/generate.stamp is up-to-date.

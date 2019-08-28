@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\8b021161cd4243444c92739df6eaf91f\NightlyMemoryCheck.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\NightlyMemoryCheck" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CA3E55A4-1BD3-3F4A-BD53-032E4EF08D13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

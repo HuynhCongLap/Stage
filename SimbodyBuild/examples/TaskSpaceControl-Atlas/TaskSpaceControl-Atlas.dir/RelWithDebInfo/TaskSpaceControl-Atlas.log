@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/examples/TaskSpaceControl-Atlas/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p1419778/Downloads/SimbodyBuild/examples/TaskSpaceControl-Atlas/CMakeFiles/generate.stamp is up-to-date.
+  TaskSpaceControl-Atlas.cpp
+  Atlas.cpp
+  URDFReader.cpp
+  TaskSpace.cpp
+  TaskSpaceControl-Atlas.vcxproj -> C:\Users\p1419778\Downloads\SimbodyBuild\RelWithDebInfo\TaskSpaceControl-Atlas.exe

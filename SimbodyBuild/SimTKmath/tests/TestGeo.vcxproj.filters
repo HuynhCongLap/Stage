@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\SimTKmath\tests\TestGeo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\SimTKmath\tests\IntegratorTestFramework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\SimTKmath\tests\OptimizerSystems.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\SimTKmath\tests\PendulumSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\SimTKmath\tests\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3C76D0AA-060A-3D5F-ADE1-93117C13A93D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A68E076D-42BB-378A-ABB7-BB799FB3209C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

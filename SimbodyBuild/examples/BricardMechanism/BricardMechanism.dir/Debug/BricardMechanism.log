@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/examples/BricardMechanism/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p1419778/Downloads/SimbodyBuild/examples/BricardMechanism/CMakeFiles/generate.stamp is up-to-date.
+  ExampleBricardMechanism.cpp
+  BricardMechanism.vcxproj -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\BricardMechanism.exe

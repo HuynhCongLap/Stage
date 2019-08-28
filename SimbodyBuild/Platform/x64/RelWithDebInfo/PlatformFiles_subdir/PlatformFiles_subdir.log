@@ -1,0 +1,3 @@
+﻿  Copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libblas.dll -> C:\Users\p1419778\Downloads\SimbodyBuild\RelWithDebInfo\libblas.dll
+  Error copying file "C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libblas.dll" to "C:\Users\p1419778\Downloads\SimbodyBuild\RelWithDebInfo\libblas.dll".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(220,5): error MSB6006: "cmd.exe" exited with code 1.

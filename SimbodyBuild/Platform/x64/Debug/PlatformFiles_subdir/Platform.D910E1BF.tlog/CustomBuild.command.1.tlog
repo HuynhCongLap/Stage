@@ -1,0 +1,68 @@
+^C:\USERS\P1419778\DOWNLOADS\SIMBODYBUILD\CMAKEFILES\03E87FF6A271AE6AF0E68E8D3D222B4A\LIBBLAS.DLL.RULE
+setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -E copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libblas.dll C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libblas.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\P1419778\DOWNLOADS\SIMBODYBUILD\CMAKEFILES\03E87FF6A271AE6AF0E68E8D3D222B4A\LIBGCC_S_SJLJ-1.DLL.RULE
+setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -E copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libgcc_s_sjlj-1.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\P1419778\DOWNLOADS\SIMBODYBUILD\CMAKEFILES\03E87FF6A271AE6AF0E68E8D3D222B4A\LIBGFORTRAN-3.DLL.RULE
+setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -E copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libgfortran-3.dll C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libgfortran-3.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\P1419778\DOWNLOADS\SIMBODYBUILD\CMAKEFILES\03E87FF6A271AE6AF0E68E8D3D222B4A\LIBLAPACK.DLL.RULE
+setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -E copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\liblapack.dll C:\Users\p1419778\Downloads\SimbodyBuild\Debug\liblapack.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\P1419778\DOWNLOADS\SIMBODYBUILD\CMAKEFILES\03E87FF6A271AE6AF0E68E8D3D222B4A\LIBQUADMATH-0.DLL.RULE
+setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -E copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libquadmath-0.dll C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libquadmath-0.dll
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\P1419778\DOWNLOADS\SIMBODYBUILD\CMAKEFILES\C63C6DB05A777025F25201FA7BE10352\PLATFORMFILES_SUBDIR.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\P1419778\DOWNLOADS\SIMBODY-SIMBODY-3.6.1\SIMBODY-SIMBODY-3.6.1\PLATFORM\CMAKELISTS.TXT
+setlocal
+C:\Users\p1419778\Downloads\cmake-3.14.4-win64-x64\cmake-3.14.4-win64-x64\bin\cmake.exe -SC:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1 -BC:/Users/p1419778/Downloads/SimbodyBuild --check-stamp-file C:/Users/p1419778/Downloads/SimbodyBuild/Platform/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

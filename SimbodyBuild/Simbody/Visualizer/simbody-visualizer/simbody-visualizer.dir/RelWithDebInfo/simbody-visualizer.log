@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/Simbody/Visualizer/simbody-visualizer/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p1419778/Downloads/SimbodyBuild/Simbody/Visualizer/simbody-visualizer/CMakeFiles/generate.stamp is up-to-date.
+  simbody-visualizer.cpp
+  lodepng.cpp
+  simbody-visualizer.vcxproj -> C:\Users\p1419778\Downloads\SimbodyBuild\RelWithDebInfo\simbody-visualizer.exe
+  Copying glut32.dll

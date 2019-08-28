@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\03e87ff6a271ae6af0e68e8d3d222b4a\libblas.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\03e87ff6a271ae6af0e68e8d3d222b4a\libgcc_s_sjlj-1.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\03e87ff6a271ae6af0e68e8d3d222b4a\libgfortran-3.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\03e87ff6a271ae6af0e68e8d3d222b4a\liblapack.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\03e87ff6a271ae6af0e68e8d3d222b4a\libquadmath-0.dll.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\SimbodyBuild\CMakeFiles\c63c6db05a777025f25201fa7be10352\PlatformFiles_subdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\p1419778\Downloads\SimbodyBuild\Platform\CMakeFiles\PlatformFiles_subdir" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{CA3E55A4-1BD3-3F4A-BD53-032E4EF08D13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

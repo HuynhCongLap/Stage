@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/examples/TaskSpaceControl-UR10/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p1419778/Downloads/SimbodyBuild/examples/TaskSpaceControl-UR10/CMakeFiles/generate.stamp is up-to-date.
+  TaskSpaceControl-UR10.cpp
+  UR10.cpp
+  TaskSpace.cpp
+  TaskSpaceControl-UR10.vcxproj -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\TaskSpaceControl-UR10.exe

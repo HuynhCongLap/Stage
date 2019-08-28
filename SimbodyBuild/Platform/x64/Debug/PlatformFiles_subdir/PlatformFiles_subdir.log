@@ -1,0 +1,7 @@
+﻿  Copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libblas.dll -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libblas.dll
+  Copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libgcc_s_sjlj-1.dll -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libgcc_s_sjlj-1.dll
+  Copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libgfortran-3.dll -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libgfortran-3.dll
+  Copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\liblapack.dll -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\liblapack.dll
+  Copy C:\Users\p1419778\Downloads\simbody-Simbody-3.6.1\simbody-Simbody-3.6.1\Platform\Windows\lib_x64\libquadmath-0.dll -> C:\Users\p1419778\Downloads\SimbodyBuild\Debug\libquadmath-0.dll
+  Building Custom Rule C:/Users/p1419778/Downloads/simbody-Simbody-3.6.1/simbody-Simbody-3.6.1/Platform/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/p1419778/Downloads/SimbodyBuild/Platform/CMakeFiles/generate.stamp is up-to-date.
